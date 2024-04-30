@@ -21,4 +21,10 @@ body {
 
 .price {
   text-align: right;
+  width: 75%;
+}
+
+.item p {
+  display: inline-block;
+  width: 25%;
 }
