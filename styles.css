@@ -1,11 +1,11 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
 h1,
 h2,
 p {
   text-align: center;
-}
-
-body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
 
 .menu {
@@ -15,16 +15,17 @@ body {
   margin-right: auto;
 }
 
-.flavor {
+.item p {
+  display: inline-block;
+}
+
+.flavor,
+.dessert {
   text-align: left;
+  width: 75%;
 }
 
 .price {
   text-align: right;
-  width: 75%;
-}
-
-.item p {
-  display: inline-block;
   width: 25%;
 }
